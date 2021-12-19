@@ -1,5 +1,5 @@
 # stock_trading
-This project simulate stock trading and portfolio by using the following:
+This project simulates stock trading and portfolio by using the following:
 - Object-oriented programming
 - Database manipulation
 - Web scrape
