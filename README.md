@@ -7,6 +7,8 @@ This project simulate stock trading and portfolio by using the following:
 - Data collection and cleaning
 - Data analysis and visualization
 
+Libraries used: pandas, numpy, matplotlib, seaborn, sqlite3, selenium, json.
+
 Stock price data is scraped from websites and imported into database (stock.db)
 
 Test.py contains example code snippet using methods and objects defined in stock.py.
