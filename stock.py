@@ -405,7 +405,7 @@ class Database(object):
         This method is called by import_from_web() and therefore, should not be used directly.
         """
         url = "https://dulieu.mbs.com.vn/vi/Enterprise/Overview?StockCode={}".format(ticker)
-        driver_path = "C:/Users/Asus/Downloads/chromedriver.exe"
+        driver_path = "./chromedriver.exe" # Enter your path to ChromDriver
         options = webdriver.ChromeOptions()
         options.add_argument('headless')
         driver = webdriver.Chrome(driver_path, options=options)
