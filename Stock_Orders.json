@@ -1,0 +1,176 @@
+{
+    "2021-11-08": {
+        "buy": [
+            {
+                "ticker": "SBT",
+                "name": "Bien Hoa Sugar",
+                "quantity": 300,
+                "price": 23.4,
+                "date": "2021-11-08",
+                "fee": 7.0200000000000005,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-11-24": {
+        "buy": [
+            {
+                "ticker": "MBB",
+                "name": "MBBank",
+                "quantity": 100,
+                "price": 28.6,
+                "date": "2021-11-24",
+                "fee": 2.86,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-01": {
+        "buy": [
+            {
+                "ticker": "STB",
+                "name": "Ngan hang Saigonthuongtin",
+                "quantity": 100,
+                "price": 29.0,
+                "date": "2021-12-01",
+                "fee": 2.9,
+                "tax": 0.0,
+                "status": "Buy"
+            },
+            {
+                "ticker": "VHM",
+                "name": "Vinhomes",
+                "quantity": 100,
+                "price": 80.0,
+                "date": "2021-12-01",
+                "fee": 8.0,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-03": {
+        "buy": [
+            {
+                "ticker": "SBT",
+                "name": "Bien Hoa Sugar",
+                "quantity": 100,
+                "price": 22.9,
+                "date": "2021-12-03",
+                "fee": 2.29,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-05": {
+        "buy": [
+            {
+                "ticker": "VHM",
+                "name": "Vinhomes",
+                "quantity": 200,
+                "price": 80.0,
+                "date": "2021-12-05",
+                "fee": 16.0,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-06": {
+        "buy": [
+            {
+                "ticker": "VIC",
+                "name": "Vingroup",
+                "quantity": 100,
+                "price": 97.0,
+                "date": "2021-12-06",
+                "fee": 9.700000000000001,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-07": {
+        "buy": [
+            {
+                "ticker": "MBB",
+                "name": "MBBank",
+                "quantity": 100,
+                "price": 30.4,
+                "date": "2021-12-07",
+                "fee": 3.04,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-09": {
+        "sell": [
+            {
+                "ticker": "VHM",
+                "name": "Vinhomes",
+                "quantity": 100,
+                "price": 85.2,
+                "date": "2021-12-09",
+                "fee": 8.52,
+                "tax": 8.52,
+                "status": "Sell"
+            }
+        ],
+        "buy": [
+            {
+                "ticker": "SBT",
+                "name": "Bien Hoa Sugar",
+                "quantity": 200,
+                "price": 24.0,
+                "date": "2021-12-09",
+                "fee": 4.8,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-10": {
+        "buy": [
+            {
+                "ticker": "VIC",
+                "name": "Vingroup",
+                "quantity": 400,
+                "price": 93.7,
+                "date": "2021-12-10",
+                "fee": 37.480000000000004,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    },
+    "2021-12-12": {
+        "sell": [
+            {
+                "ticker": "SBT",
+                "name": "Bien Hoa Sugar",
+                "quantity": 400,
+                "price": 27.6,
+                "date": "2021-12-12",
+                "fee": 11.040000000000001,
+                "tax": 11.040000000000001,
+                "status": "Sell"
+            }
+        ],
+        "buy": [
+            {
+                "ticker": "VHM",
+                "name": "Vinhomes",
+                "quantity": 300,
+                "price": 79.5,
+                "date": "2021-12-12",
+                "fee": 23.85,
+                "tax": 0.0,
+                "status": "Buy"
+            }
+        ]
+    }
+}

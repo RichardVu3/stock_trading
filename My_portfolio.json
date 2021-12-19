@@ -1,0 +1,102 @@
+{
+    "SBT": {
+        "quantity": 600,
+        "value": 23.516666666666666,
+        "object": {
+            "ticker": "SBT",
+            "name": "Bien Hoa Sugar",
+            "market_detail": [
+                [
+                    "SBT",
+                    "2021-12-17",
+                    24.1,
+                    -0.3,
+                    4149500.0,
+                    24.5,
+                    24.85,
+                    24.1
+                ]
+            ]
+        }
+    },
+    "MBB": {
+        "quantity": 200,
+        "value": 29.5,
+        "object": {
+            "ticker": "MBB",
+            "name": "MBBank",
+            "market_detail": [
+                [
+                    "MBB",
+                    "2021-12-17",
+                    28.2,
+                    -0.05,
+                    7073400.0,
+                    28.3,
+                    28.4,
+                    28.1
+                ]
+            ]
+        }
+    },
+    "STB": {
+        "quantity": 100,
+        "value": 29.0,
+        "object": {
+            "ticker": "STB",
+            "name": "Ngan hang Saigonthuongtin",
+            "market_detail": [
+                [
+                    "STB",
+                    "2021-12-17",
+                    28.3,
+                    -0.3,
+                    9269300.0,
+                    28.65,
+                    28.7,
+                    28.0
+                ]
+            ]
+        }
+    },
+    "VHM": {
+        "quantity": 600,
+        "value": 79.75,
+        "object": {
+            "ticker": "VHM",
+            "name": "Vinhomes",
+            "market_detail": [
+                [
+                    "VHM",
+                    "2021-12-17",
+                    84.5,
+                    2.2,
+                    25185800.0,
+                    82.4,
+                    86.0,
+                    82.4
+                ]
+            ]
+        }
+    },
+    "VIC": {
+        "quantity": 500,
+        "value": 94.36,
+        "object": {
+            "ticker": "VIC",
+            "name": "Vingroup",
+            "market_detail": [
+                [
+                    "VIC",
+                    "2021-12-17",
+                    102.0,
+                    2.0,
+                    6655000.0,
+                    100.0,
+                    102.7,
+                    98.8
+                ]
+            ]
+        }
+    }
+}
