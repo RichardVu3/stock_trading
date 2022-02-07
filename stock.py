@@ -179,10 +179,20 @@ class My_Portfolio(object):
         
     def sell_stock(self, stock):
         """
-        Set status 'Sell' and add stock to portfolio.
+        Set status 'Sell' and minus stock in portfolio.
         """
-        # set status for stock
+        # minus stock in portfolio
+        if stock.get_ticker() not in self.portfolio:
+            raise ValueError('Stock {} not in Portfolio'.format(stock.get_ticker()))
+        if stock.get_quantity() > self.portfolio[stock.get_ticker()]['quantity']:
+            raise ValueError('Not enough quantity of stock {} in Portfolio'.format(stock.get_ticker()))
+        ## set status for stock
         stock.set_status('Sell')
+        ## change in portfolio
+        self.portfolio[stock.get_ticker()] = self.change_stock_state(self.portfolio[stock.get_ticker()], stock)
+        ## remove from portfolio if stock quant = 0
+        if self.portfolio[stock.get_ticker()]['quantity'] == 0:
+            del self.portfolio[stock.get_ticker()]
         
         # add stock to orders
         if stock.get_date() not in self.orders:
@@ -223,14 +233,18 @@ class My_Portfolio(object):
         This method changes the state of stock in portfolio.
         Args:
             adict: a dictionary saving the current quantity and value of an owned stock
-            onj: a Buy_Stock object that needs to be added to portfolio
+            stock: a Stock object that needs to be added to portfolio
         Returns:
             a dictionary with updated quantity and value of an owned stock
         """
         cur_quant = adict['quantity']
         cur_value = adict['value']
-        updated_quantity = cur_quant + stock.get_quantity()
-        updated_value = (cur_value*cur_quant + stock.get_quantity()*stock.get_price())/updated_quantity
+        if stock.get_status() == 'Buy':  
+            updated_quantity = cur_quant + stock.get_quantity()
+            updated_value = (cur_value*cur_quant + stock.get_quantity()*stock.get_price())/updated_quantity
+        elif stock.get_status() == 'Sell':
+            updated_quantity = cur_quant - stock.get_quantity()
+            updated_value = cur_value
         return {
             'quantity': updated_quantity,
             'value': updated_value,
